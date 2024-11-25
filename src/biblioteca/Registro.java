@@ -6,8 +6,8 @@ public class Registro extends Livros {
      private String nome_leitor;
      
      
-     Registro(String capa, String nome_livro, String nome_autor, String ano_escrito, 
-     String genero, String ano_publicado,String data_pegoulivro,String data_devolucao,String nome_leitor){
+     Registro(String capa, String nome_livro, String nome_autor, int ano_escrito, 
+     String genero, int ano_publicado,String data_pegoulivro,String data_devolucao,String nome_leitor){
             super(capa,nome_livro,nome_autor,ano_escrito,genero,ano_publicado);
                this.data_pegoulivro=data_pegoulivro;
                this.data_devolucao=data_devolucao;
@@ -68,12 +68,12 @@ public class Registro extends Livros {
     }
 
     @Override
-    public String getAnoescrito() {
+    public int getAnoescrito() {
         return super.getAnoescrito();
     }
 
     @Override
-    public void setAnoescrito(String ano_escrito) {
+    public void setAnoescrito(int ano_escrito) {
         super.setAnoescrito(ano_escrito);
     }
 
@@ -88,12 +88,12 @@ public class Registro extends Livros {
     }
 
     @Override
-    public String getAnopublicado() {
+    public int getAnopublicado() {
         return super.getAnopublicado();
     }
 
     @Override
-    public void setAnopublicado(String ano_publicado) {
+    public void setAnopublicado(int ano_publicado) {
         super.setAnopublicado(ano_publicado);
     }
 }
