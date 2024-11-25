@@ -13,11 +13,11 @@ public class App {
         System.out.println("Digite o nome do autor:");
         String nome_autor = input.nextline();
         System.out.println("Digite o ano que o livro foi escrito:");
-        String ano_escrito = input.nextline();
+        String ano_escrito = input.nextInt();
         System.out.println("Digite o genero literário:");
         String genero = input.nextline();
         System.out.println("Digite o ano que foi publicado:");
-        String ano_publicado = input.nextline();
+        String ano_publicado = input.nextInt();
         System.out.println("Digite a data que o livro foi pego:");
         String data_pegoulivro = input.nextline();
         System.out.println("Digite a data que foi devolvido:");
