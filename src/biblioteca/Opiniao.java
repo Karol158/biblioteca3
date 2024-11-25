@@ -4,7 +4,7 @@ public class Opiniao extends Livros {
     private String opiniao;
 
 
-    Opiniao(String capa,String nome_livro,String nome_autor,String ano_escrito,String genero,String ano_publicado,String opiniao){
+    Opiniao(String capa,String nome_livro,String nome_autor,int ano_escrito,String genero,int ano_publicado,String opiniao){
         super(capa,nome_livro,nome_autor,ano_escrito,genero,ano_publicado);
         this.opiniao=opiniao;
     }
@@ -50,7 +50,7 @@ public class Opiniao extends Livros {
     }
 
     @Override
-    public void setAnoescrito(String ano_escrito) {
+    public void setAnoescrito(int ano_escrito) {
         super.setAnoescrito(ano_escrito);
     }
 
@@ -65,12 +65,12 @@ public class Opiniao extends Livros {
     }
 
     @Override
-    public String getAnopublicado() {
+    public int getAnopublicado() {
         return super.getAnopublicado();
     }
 
     @Override
-    public void setAnopublicado(String ano_publicado) {
+    public void setAnopublicado(int ano_publicado) {
         super.setAnopublicado(ano_publicado);
     }
 }
