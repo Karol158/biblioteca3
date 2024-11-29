@@ -25,7 +25,7 @@ public class Registro extends Livros {
         return this.data_devolucao;
     }
     
-    public void setCapa(String data_devolucao){
+    public void setDatadevolucao(String data_devolucao){
         this.data_devolucao=data_devolucao;
     
     }
