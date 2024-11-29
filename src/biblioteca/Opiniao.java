@@ -16,62 +16,61 @@ public class Opiniao extends Livros {
    }
    @Override
     public String getCapa() {
-        return super.getCapa();
+        return getCapa();
     }
 
     @Override
     public void setCapa(String capa) {
-        super.setCapa(capa);
+       setCapa(capa);
     }
 
     @Override
     public String getNomelivro() {
-        return super.getNomelivro();
+        return getNomelivro();
     }
 
     @Override
     public void setNomelivro(String nome_livro) {
-        super.setNomelivro(nome_livro);
+        setNomelivro(nome_livro);
     }
 
     @Override
     public String getNomeautor() {
-        return super.getNomeautor();
+        return getNomeautor();
     }
 
     @Override
     public void setNomeautor(String nome_autor) {
-        super.setNomeautor(nome_autor);
+        setNomeautor(nome_autor);
     }
 
     @Override
-    public String getAnoescrito() {
-        return super.getAnoescrito();
+    public int getAnoescrito() {
+        return getAnoescrito();
     }
 
     @Override
     public void setAnoescrito(int ano_escrito) {
-        super.setAnoescrito(ano_escrito);
+       setAnoescrito(ano_escrito);
     }
 
     @Override
     public String getGenero() {
-        return super.getGenero();
+        return getGenero();
     }
 
     @Override
     public void setGenero(String genero) {
-        super.setGenero(genero);
+        setGenero(genero);
     }
 
     @Override
     public int getAnopublicado() {
-        return super.getAnopublicado();
+        return getAnopublicado();
     }
 
     @Override
     public void setAnopublicado(int ano_publicado) {
-        super.setAnopublicado(ano_publicado);
+        setAnopublicado(ano_publicado);
     }
 }
-
