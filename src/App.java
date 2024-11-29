@@ -7,25 +7,25 @@ public class App {
     public static void main(String[] args) throws Exception {
        Scanner input=new Scanner(System.in);
        System.out.println("Digite o tipo de capa do livro:");
-        String capa = input.nextline();
-        System.out.println("Digite o nome do livro:")
-        String nome_livro=input.nextline();
+        String capa = input.nextLine();
+        System.out.println("Digite o nome do livro:");
+        String nome_livro=input.nextLine();
         System.out.println("Digite o nome do autor:");
-        String nome_autor = input.nextline();
+        String nome_autor = input.nextLine();
         System.out.println("Digite o ano que o livro foi escrito:");
-        String ano_escrito = input.nextInt();
+        int ano_escrito = input.nextInt();
         System.out.println("Digite o genero literário:");
-        String genero = input.nextline();
-        System.out.println("Digite o ano que foi publicado:");
-        String ano_publicado = input.nextInt();
+        String genero = input.nextLine();
+        System.out.printf("Digite o ano que foi publicado:");
+        int ano_publicado = input.nextInt();
         System.out.println("Digite a data que o livro foi pego:");
-        String data_pegoulivro = input.nextline();
+        String data_pegoulivro = input.nextLine();
         System.out.println("Digite a data que foi devolvido:");
-        String data_devolucao = input.nextline();
+        String data_devolucao = input.nextLine();
         System.out.println("Digite o nome do leitor");
-         String nome_leitor = input.nextline();
+         String nome_leitor = input.nextLine();
         System.out.println("Digite a sua opiniao sobre o livro");
-         String opiniao = input.nextline();
+         String opiniao = input.nextLine();
         
        System.out.println("Tipo de capa dp livro:" +capa);
        System.out.println("O nome do livro:"+nome_livro);
