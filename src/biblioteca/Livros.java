@@ -1,7 +1,7 @@
 package biblioteca;
 
 
-public abstract class Livros {
+public  class Livros {
     private String capa;
     private String nome_livro;
     private String nome_autor;
@@ -17,25 +17,53 @@ public abstract class Livros {
     this.genero=genero;
     this.ano_publicado=ano_publicado;
     }
-    public abstract String getCapa();
-    public abstract void setCapa(String capa);
-    
-    public abstract String getNomelivro();
-    public abstract void setNomelivro(String nome_livro);
-    
-    public abstract String getNomeautor();
-    public abstract void setNomeautor(String nome_autor);
-      
-    public abstract int getAnoescrito();
-    public abstract void setAnoescrito(int ano_escrito);
-       
-    public abstract String getGenero();
-    
-    public abstract void setGenero(String genero);
-        
-    public abstract int getAnopublicado();
-       
-    public abstract void setAnopublicado(int ano_publicado);
+     public String getCapa() {
+        return this.capa;
+    }
+
+    public void setCapa(String capa) {
+        this.capa = capa;
+    }
+
+    public String getNome_livro() {
+        return this.nome_livro;
+    }
+
+    public void setNome_livro(String nome_livro) {
+        this.nome_livro = nome_livro;
+    }
+
+    public String getNome_autor() {
+        return this.nome_autor;
+    }
+
+    public void setNome_autor(String nome_autor) {
+        this.nome_autor = nome_autor;
+    }
+
+    public int getAno_escrito() {
+        return this.ano_escrito;
+    }
+
+    public void setAno_escrito(int ano_escrito) {
+        this.ano_escrito = ano_escrito;
+    }
+
+    public String getGenero() {
+        return this.genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public int getAno_publicado() {
+        return this.ano_publicado;
+    }
+
+    public void setAno_publicado(int ano_publicado) {
+        this.ano_publicado = ano_publicado;
+    }
     
     
 }
